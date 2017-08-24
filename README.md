@@ -1,1 +1,1 @@
-# react-prototype-starter-kit
+# learning-react

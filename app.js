@@ -14,6 +14,11 @@ function App() {
 			<div className="row">
 				<div className="col-xs-12">
 					<h1>Welcome from React Prototype Starter Kit !!</h1>
+
+					<Boiler />
+			<br/>
+				<div className="col-xs-12">
+				</div>
 					<Test />
 					<NameForm />
 				<div className="col-xs-12">

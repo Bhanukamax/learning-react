@@ -16,6 +16,7 @@
 	<?php $q = '?' . rand(1, 900) . '=' . rand(500, 5000); ?>
 
 	
+	<script src="boil.js<?php echo($q)?>" type="text/babel"></script>
 	<script src="form.js<?php echo($q)?>" type="text/babel"></script>
 	<script src="app.js<?php echo($q)?>" type="text/babel"></script>
 </body>

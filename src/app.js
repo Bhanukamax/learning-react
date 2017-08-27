@@ -1,9 +1,8 @@
 
 function Test() {
-	return(
-		<div>
-			<h2> testing </h2>
-	</div>
+	return( <div>
+				<h2> testing </h2>
+			</div>
 	);
 }
 

@@ -1,0 +1,32 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "learning react with the react official documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhanukamax/learning-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "bhanuka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bhanukamax/learning-react/issues"
+  },
+  "homepage": "https://github.com/Bhanukamax/learning-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-babili": "^0.1.4",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}

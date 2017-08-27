@@ -105,10 +105,27 @@ class TempratureInput extends React.Component {
 
 }
 
+
+
+function FancyBorder(props) {
+	return(
+		<div className={"alert alert-" + props.color}>
+			{props.children}
+		</div>
+	);
+}
+
 function Boiler() {
 
 	return(
-		<Calculator />
+		<div>
+			<FancyBorder color='success'>
+			<Calculator />
+			</FancyBorder>
+			<FancyBorder color='danger'>
+			<Calculator />
+			</FancyBorder>
+		</div>
 	);
 
 

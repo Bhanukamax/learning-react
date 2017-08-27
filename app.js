@@ -1,6 +1,4 @@
 
-
-
 function Test() {
 	return(
 		<div>
@@ -9,24 +7,22 @@ function Test() {
 	);
 }
 
-
-
-
 function App() {
+		const items = ['rise','coconut', 'milk', 'chicken', 'carrot', 'banana'];
 	return(
-	
-	<div>
+	<div className="container">
+			<div className="row">
+				<div className="col-xs-12">
 	<h1>Welcome from React Prototype Starter Kit !!</h1>
 			<Test />
 			<NameForm />
 			<NameForm />
+			<FlavorForm items={items} />
+				</div>
+			</div>
 	</div>
-	
 	);
-
 }
-
-
 
 ReactDOM.render(
 		<App />,
